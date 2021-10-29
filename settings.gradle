@@ -1,0 +1,13 @@
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        jcenter() // Warning: this repository is going to shut down soon
+    }
+}
+rootProject.name = "ch08_1_file_memory"
+include ':ch08_1_memory'
+include ':ch08_2_diary'
+include ':ch08_3_file_raw_folder_in_app'
+include ':ch08_4_sdcard_picture_view'
